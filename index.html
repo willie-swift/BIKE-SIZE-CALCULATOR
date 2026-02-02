@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "styles.css">
+    <title>Bike Sizing Calculator</title>
+</head>
+<body>
+    <h1>BIKE SIZING CALCULATOR</h1>
+    <h2><i>BY WILLIE SWIFT 2026</i></h2>
+    <div id = "both-modules">
+        <div id = "calc-module">
+            <div class = "inputs">
+                <label for = "frame-model">Frame Model: </label>
+                    <input type = "text" id="frame-model" name = "frame-model" placeholder="~Pinarello Dogma">
+            </div>
+            <div class = "inputs">
+                <label for = "frame-size">Frame Size: </label>
+                    <input type = "text" id="frame-size" name = "frame-size" placeholder="~58">
+            
+            </div>
+            <div class = "inputs">
+                <label for = "ideal-reach">Ideal Reach: </label>
+                    <input type = "text" id="ideal-reach" name = "ideal-reach" placeholder="~500"><span>mm</span>
+            </div>
+            <div class = "inputs">
+            <label for = "ideal-stack">Ideal Stack: </label>
+                    <input type = "text" id="ideal-stack" name = "ideal-stack" placeholder="~700"><span>mm</span>  
+            </div>
+            <div class = "inputs">
+                <label for = "frame-reach">Frame Reach: </label>
+                    <input type = "text" id="frame-reach" name = "frame-reach" placeholder="~400"><span>mm</span>
+            </div>
+            <div class = "inputs">
+                <label for = "frame-stack">Frame Stack: </label>
+                    <input type = "text" id="frame-stack" name = "frame-stack" placeholder="~615"><span>mm</span>
+            </div>
+            <div class = "inputs">
+                <label for = "headtube-angle">Headtube Angle: </label>
+                    <input type = "text" id="headtube-angle" name ="headtube-angle" placeholder="~71.5"><span>degrees</span>
+            </div>
+            <div class = "inputs">
+                    <label for = "stem-angle">Stem Angle: </label>   
+                        <input type = "text" id="stem-angle" name = "stem-angle" placeholder="~6"><span>degrees</span>
+            </div>
+            <div class = "inputs">
+                <label for = "stem-length">Stem Length: </label>  
+                    <input type = "text" id="stem-length" name = "stem-length" placeholder="110"><span>mm</span>
+            </div>
+
+            <div class = "inputs">
+                <label for = "stem-height">Stem Height: </label>
+                    <input type = "text" id="stem-height" name = "stem-height" placeholder="STEM HEIGHT" value = "40"><span>mm</span>
+            </div>
+
+            <div class = "inputs">
+                <label for = "spacer-height">Spacer Height: </label>
+                    <input type = "text" id="spacer-height" name = "spacer-height" placeholder="~40"><span>mm</span>
+            </div>
+        </div>
+        <div id = "results-module">
+            <div id = "btns">
+                <button id = "calc-btn">CALCULATE</button>
+                <button id = "save-btn">SAVE</button>
+            </div>
+            <div id = "clear-btns">
+                <button id = "clear-btn">CLEAR INPUTS</button>
+                <button id = "clear-all-btn">CLEAR ALL</button>
+            </div>
+            <p id = "results"></p>
+            <p id = "comparison"></p>
+            <ul id = "saved-results"></ul>
+        </div>
+    </div>
+    <script src = "bikecalc.js"></script>
+</body>
+</html>
