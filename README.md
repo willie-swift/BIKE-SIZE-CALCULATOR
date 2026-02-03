@@ -3,3 +3,4 @@ it will return a short summary of how close that particular configuration is fro
 Clear inputs will clear the input space and current returned paragraph 
 save inputs will save the current entry into a list below which can be copy and pasted to the client 
 clear all clears everything 
+Willie Swift 2026
