@@ -139,13 +139,13 @@ function fitComparison (xIdeal, zIdeal, xActual, zActual,model,size,sl,sa,sh){
     <br>
     A ${sl} mm ${sa} degree stem with ${sh} mm of total spacers `
     if (xDiff<0){
-        xResult = `would result in a position that has a reach approximately ${Math.abs(xDiff)}mm longer and `
+        xResult = `would result in a position that has a reach approximately ${Math.abs(xDiff)}mm longer `
     }
     else if (xDiff > 0){
-        xResult = `would result in a position that has a reach approximately ${Math.abs(xDiff)}mm closer and `
+        xResult = `would result in a position that has a reach approximately ${Math.abs(xDiff)}mm closer `
     }
     else {
-        xResult = `would result in a position that has approximately the same reach and `    
+        xResult = `would result in a position that has approximately the same reach `    
     }
     if (zDiff<0){
         zResult = `and a stack ${Math.abs(zDiff)}mm taller than ideal`
